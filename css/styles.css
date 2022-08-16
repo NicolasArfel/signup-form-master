@@ -42,7 +42,8 @@ main {
 
 .left__column {
     color: white;
-    width: 40%;
+    width: 45%;
+    margin: auto 0;
 }
 
 .left__column-title {
@@ -57,7 +58,7 @@ main {
 }
 
 .rigth__column {
-    width: 40%;
+    width: 45%;
 }
 
 .rigth__column-banner {
@@ -136,5 +137,37 @@ footer {
 /* --- Responsive  --- */
 
 @media screen and ( max-width: 768px){
+    body {
+        height: fit-content;
+    }
+    main {
+        flex-direction: column;
+        margin: 3rem 0;
+    }
     
+    .left__column, .rigth__column {
+        width: 100%;
+        text-align: center;
+        margin: 2rem 0;
+        line-height: 1.6rem;
+    }
+
+    .left__column-title {
+        margin: 2rem auto;
+        font-size: 1.6rem;
+        width: 90%;
+    }
+
+    .left__column-text {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    .rigth__column-banner {
+        padding: 1rem 2rem;
+    }
+
+    input {
+        padding: 1rem;
+    }
 }
