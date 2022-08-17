@@ -40,6 +40,8 @@ main {
     width: 80%;
 }
 
+/* --- left-column --- */
+
 .left__column {
     color: white;
     width: 45%;
@@ -56,6 +58,8 @@ main {
     font-size: 1rem;
     font-weight: 500;
 }
+
+/* --- right-column --- */
 
 .rigth__column {
     width: 45%;
@@ -119,6 +123,8 @@ input[type=text] {
     color: var(--red);
     font-weight: 600;
 }
+
+/* --- footer --- */
 
 footer {
     position: absolute;
