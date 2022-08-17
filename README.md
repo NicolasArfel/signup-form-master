@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [@gitHub link](https://github.com/NicolasArfel/signup-form-master)
+- Live Site URL: [@static-signup-form](https://static-signup-form.netlify.app/)
 
 ## My process
 
